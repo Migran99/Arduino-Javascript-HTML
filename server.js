@@ -1,3 +1,6 @@
+///RUN WITH NODE
+/// SERIALPORT AND WS NODE LIBRARIES REQUIRED
+
 var WebSocketServer = require('ws').Server;
 var SerialPort = require('serialport');
 
